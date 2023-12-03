@@ -568,6 +568,10 @@ video {
   }
 }
 
+.relative {
+  position: relative;
+}
+
 .flex {
   display: flex;
 }
@@ -606,6 +610,14 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .bg-gray-800 {
@@ -651,4 +663,18 @@ video {
 .backdrop-filter {
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.drop-down::after{
+  content: url('../public/vite.svg');
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  height: 100%;
+  width: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-left-width: 1px
 }
