@@ -22,3 +22,12 @@
 // `
 
 // setupCounter(document.querySelector('#counter'))
+
+
+const dropDown = document.querySelector(".drop-down");
+const ListContent = document.querySelector(".list-content");
+
+
+dropDown.addEventListener('click',()=>{
+    ListContent.classList.toggle('hidden')
+})
