@@ -26,9 +26,9 @@
 
 const dropDown = document.querySelector(".drop-down");
 const ListContent = document.querySelector(".list-content");
-const img=document.querySelector('img')
+const img=document.querySelector('i')
 const select = document.querySelector(".select");
-const options=document.querySelectorAll('li')
+const options=document.querySelectorAll('ul li')
 
 
 dropDown.addEventListener('click',()=>{
