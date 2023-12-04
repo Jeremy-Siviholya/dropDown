@@ -32,20 +32,19 @@ const options=document.querySelectorAll('ul li')
 
 
 dropDown.addEventListener('click',()=>{
-   toggleOpacity(ListContent)
+   toggleTranslate(ListContent)
     rotate(img)
 })
 
 options.forEach(option=>{
     option.addEventListener('click',()=>{
-    console.log( option.textContent)
     document.querySelector('span').innerText=option.textContent
-    toggleOpacity(ListContent)
+    toggleTranslate(ListContent)
     rotate(img)
     })
 })
 
-const toggleOpacity = (el) => {
+const toggleTranslate = (el) => {
   el.classList.toggle("-translate-y-72");
   return el;
 };
