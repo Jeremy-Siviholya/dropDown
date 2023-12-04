@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.drop-down::after{
+/* .drop-down::after{
     content: url('../public/vite.svg');
     @apply absolute right-0 top-0 bottom-0 h-full w-10 border-l flex items-center justify-center
+} */
+
+.rotate{
+    @apply rotate-180
 }

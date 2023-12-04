@@ -26,8 +26,23 @@
 
 const dropDown = document.querySelector(".drop-down");
 const ListContent = document.querySelector(".list-content");
+const img=document.querySelector('img')
+const select = document.querySelector(".select");
+const options=document.querySelectorAll('li')
 
 
 dropDown.addEventListener('click',()=>{
-    ListContent.classList.toggle('hidden')
+    ListContent.classList.toggle("opacity-0");
+    img.classList.toggle('rotate')
 })
+
+options.forEach(option=>{
+    option.addEventListener('click',()=>{
+    console.log( option.textContent)
+    document.querySelector('span').innerText=option.textContent
+    ListContent.classList.toggle("opacity-0");
+    })
+})
+
+
+

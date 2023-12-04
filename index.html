@@ -16,10 +16,24 @@
       <div
         class="w-72 h-10 bg-white rounded-sm relative drop-down overflow-hidden"
       >
+      <div class="w-[90%] h-full">
+          <span class="flex justify-center items-center select text-gray-500 w-full h-full">Select Favorite Framework...</span>
+      </div>
+      <div class="absolute right-0 top-0 bottom-0 w-10 bg-white border-l flex justify-center items-center">
+          <img src="./public/vite.svg" class="w-4 h-4 duration-500" alt="">
+      </div>
     </div>
       <div
-        class="bg-white w-72 h-72 rounded-md hidden duration-500 list-content"
-      ></div>
+        class="bg-white w-72 h-72 rounded-md opacity-0 duration-500 list-content"
+      >
+    <ul class="flex flex-col gap-2 px-3 py-3">
+          <li class="px-4 py-2 text-gray-500 bg-gray-200 rounded-sm">VANILLA</li>
+          <li class="px-4 py-2 text-gray-500 bg-gray-200 rounded-sm">REACT</li>
+          <li class="px-4 py-2 text-gray-500 bg-gray-200 rounded-sm">VUE</li>
+          <li class="px-4 py-2 text-gray-500 bg-gray-200 rounded-sm">TAILWINDCSS</li>
+          <li class="px-4 py-2 text-gray-500 bg-gray-200 rounded-sm">BOOTSTRAP</li>
+    </ul>
+    </div>
     </div>
   </body>
 </html>
