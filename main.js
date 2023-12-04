@@ -46,7 +46,7 @@ options.forEach(option=>{
 })
 
 const toggleOpacity = (el) => {
-  el.classList.toggle("opacity-0");
+  el.classList.toggle("-translate-y-72");
   return el;
 };
 
