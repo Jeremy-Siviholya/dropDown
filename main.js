@@ -32,17 +32,27 @@ const options=document.querySelectorAll('li')
 
 
 dropDown.addEventListener('click',()=>{
-    ListContent.classList.toggle("opacity-0");
-    img.classList.toggle('rotate')
+   toggleOpacity(ListContent)
+    rotate(img)
 })
 
 options.forEach(option=>{
     option.addEventListener('click',()=>{
     console.log( option.textContent)
     document.querySelector('span').innerText=option.textContent
-    ListContent.classList.toggle("opacity-0");
+    toggleOpacity(ListContent)
+    rotate(img)
     })
 })
 
+const toggleOpacity = (el) => {
+  el.classList.toggle("opacity-0");
+  return el;
+};
+
+const rotate = (el) => {
+  el.classList.toggle("rotate");
+  return el;
+};
 
 
