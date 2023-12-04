@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dropdown</title>
     <script type="module" src="/main.js" defer></script>
@@ -12,29 +12,30 @@
   <body>
     <div
       id="app"
-      class="w-screen h-screen bg-gray-800 flex flex-col gap-3 justify-center items-center"
+      class="w-screen h-screen bg-perfectGray-400 flex flex-col gap-3 justify-center items-center"
     >
       <div
-        class="w-72 h-10 bg-white rounded-sm relative  overflow-hidden"
+        class="w-72 h-10 bg-perfectGray-200 rounded-sm relative  overflow-hidden"
       >
       <div class="w-[90%] h-full">
-          <span class="flex justify-center items-center select text-gray-500 w-full h-full">Select Favorite Framework...</span>
+          <span class="flex justify-center items-center select text-white w-full h-full">Framework</span>
       </div>
-      <div class="absolute right-0 top-0 bottom-0 drop-down w-10 bg-white border-l flex justify-center items-center">
+      <div class="absolute right-0 top-0 bottom-0 drop-down w-10 bg-perfectGray-200 border-l border-gray-400 flex justify-center items-center">
          <i class='bx bx-chevron-down duration-500 font-semibold text-[25px] text-green-400'></i>
  
 
       </div>
     </div>
       <div
-        class="w-72 h-72 overflow-hidden "
+        class="w-72 h-[315px] overflow-hidden rounded-md"
 >
-    <ul class="flex bg-white -translate-y-72 rounded-md  duration-500 flex-col gap-2 px-3 py-3 list-content">
-          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-gray-200 rounded-sm"><i class='bx bxl-nodejs text-green-600 text-[25px]'></i> <span>NODE JS</span> </li>
-          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-gray-200 cursor-pointer rounded-sm"><i class='bx bxl-react text-[25px] text-blue-500'></i> <span>REACT JS</span> </li>
-          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-gray-200 cursor-pointer rounded-sm"><i class='bx bxl-vuejs text-[25px] text-emerald-600'></i> <span>VUE JS</span> </li>
-          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-gray-200 cursor-pointer rounded-sm"><i class='bx bxl-tailwind-css text-[25px] text-blue-400'></i> <span>TAILWINDCSS</span> </li>
-          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-gray-200 cursor-pointer rounded-sm"><i class='bx bxl-bootstrap text-[25px] text-purple-600'></i> <span>BOOTSTRAP</span> </li>
+    <ul class="flex bg-perfectGray-200 text-white -translate-y-80 rounded-md  duration-500 flex-col gap-2 px-3 py-3 list-content">
+          <li class="px-4 py-2 gap-2 flex justify-start cursor-pointer items-center hover:bg-perfectGray-100 rounded-sm"><i class='bx bxl-nodejs text-green-600 text-[25px]'></i> <span>NODE JS</span> </li>
+          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-perfectGray-100 cursor-pointer rounded-sm"><i class='bx bxl-react text-[25px] text-blue-500'></i> <span>REACT JS</span> </li>
+          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-perfectGray-100 cursor-pointer rounded-sm"><i class='bx bxl-vuejs text-[25px] text-emerald-600'></i> <span>VUE JS</span> </li>
+          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-perfectGray-100 cursor-pointer rounded-sm"><i class='bx bxl-tailwind-css text-[25px] text-blue-400'></i> <span>TAILWINDCSS</span> </li>
+          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-perfectGray-100 cursor-pointer rounded-sm"><i class='bx bxl-bootstrap text-[25px] text-purple-600'></i> <span>BOOTSTRAP</span> </li>
+          <li class="px-4 py-2 gap-2 flex justify-start items-center hover:bg-perfectGray-100 cursor-pointer rounded-sm"><i class='bx bxl-flutter text-[25px] text-blue-500'></i> <span>FLUTTER</span> </li>
     </ul>
     </div>
     </div>

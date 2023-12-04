@@ -45,7 +45,7 @@ options.forEach(option=>{
 })
 
 const toggleTranslate = (el) => {
-  el.classList.toggle("-translate-y-72");
+  el.classList.toggle("-translate-y-80");
   return el;
 };
 
